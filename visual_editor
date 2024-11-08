@@ -1,0 +1,206 @@
+%-------------------------
+% Resume in Latex
+% Author : Zaher Faruk
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Zaher Faruk} \\ \vspace{1pt}
+    \small 07553064043 $|$ \href{mailto:zaherfaruk@gmail.com}{\underline{zaherfaruk04@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/zaher-faruk-b6546231a/}{\underline{linkedin.com/in/zaher-faruk-b6546231a/}} $|$
+    \href{https://github.com/ZaherFaruk04}{\underline{github.com/ZaherFaruk04}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The University of Salford}{Salford, England}
+      {BSc Physics in Physics}{September 2022 -- June 2025}
+    \resumeSubheading
+      {Ashton Sixth Form College}{Ashton-under-Lyne, England }
+      {Maths, Physics, Computer Science}{September 2020 -- July 2022}
+  \resumeSubHeadingListEnd
+  
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+          \resumeProjectHeading
+          {\textbf{Producing and Engineering a Drone} $|$ \emph{C ++, Fusion 360, Arduino, Tinkercad}}{September 2023 -- June 2024}
+          \resumeItemListStart
+            \resumeItem{Arduino Programming: Developed and programmed the
+drone’s flight control system using Arduino, implementing
+real-time control algorithms using C++}
+            \resumeItem{Circuit Design and Hardware Assembly: Designed and
+assembled the drone’s electronic components, including the
+motors, ESCs, and flight controller}
+            \resumeItem{CAD modelling with Fusion 360: Designed and modelled custom drone parts using Fusion 360 to ensure precise fit and functionality }
+            \resumeItem{Troubleshooting and Debugging: Diagnosed and resolved hardware issues with the Arduino chip and software issues in C++ during the
+testing and development phase}
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {\textbf{Programming Quantum Computers} $|$ \emph{IBM Quantum, PennyLane, Microsoft Azure}}{October 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Gained hands-on experience with a variety of quantum technologies, including superconducting qubits (IBM Quantum), photonic systems (Xanadu), trapped ions (IonQ), and quantum annealing (D-Wave)}
+          \resumeItemListEnd
+            \resumeProjectHeading
+          {\textbf{Non-Analytic Basins and Chaotic System Simulation} $|$ \emph{MATLAB}}{September 2024 -- October 2024}
+          \resumeItemListStart
+            \resumeItem{Numerical Solution Using ODE Solver: Used MATLAB’s ode45 function to numerically solve the ODEs for both original and perturbed initial conditions over a defined time span}
+            \resumeItem{Visualisation of Chaotic Dynamics: Generated time-series plots to illustrate the sensitivity to initial conditions and a 3D plot to visualise the chaotic attractor in phase space}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Lennard-Jones Potential Plotting} $|$ \emph{Python, NumPy, Matplotlib}}{October 2023 -- November 2024}
+          \resumeItemListStart
+            \resumeItem{Data Processing and Analysis: Loaded and processed atomic separation and potential energy data from CSV files using Pandas for data manipulation}
+            \resumeItem{Mathematical Modelling: Calculated the Lennard-Jones potential values using NumPy, implementing the potential energy formula to model interatomic forces}
+            \resumeItem{Data Visualisation: Plotted experimental data and theoretical potential curve using Matplotlib, comparing atomic separation with potential energy}
+            \resumeItem{Algorithm Optimisation: Utilised NumPy's linspace to generate smooth, high-resolution data points for accurate visualisation of potential curves}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Simple Harmonic Motion Simulation} $|$ \emph{Python, VPython, GitHub}}{September 2023 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{Applied Python libraries like VPython to create interactive visualisations and simulations,
+demonstrating proficiency in using tools for scientific computing}
+            \resumeItem{Created a physics simulation in VPython to model and analyse Simple Harmonic Motion (SHM)}
+            \resumeItem{Used object-oriented programming to structure and optimize the simulation model}
+            \resumeItem{Gained experience in testing and debugging code by analysing data-driven results to refine simulation parameters}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Information Technology Support Specialist}{September 2018 -- August 2019}
+      {Microtech Computers}{Ashton-under-Lyne, England}
+      \resumeItemListStart
+        \resumeItem{Operating System Installation: Installed and configured
+operating systems via BIOS, ensuring smooth setup and
+performance}
+        \resumeItem{System Testing: Performed post-repair tests to verify system stability and ensure that repairs were successful }
+    \resumeItemListEnd
+
+%
+
+
+%-------------------------------------------
+\end{document}
