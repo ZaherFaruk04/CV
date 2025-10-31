@@ -1,0 +1,25 @@
+\documentclass[a4paper,10pt]{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\begin{document}
+
+\begin{letter}{Hiring Team \\ Apadmi \\ Salford Quays \\ Manchester}
+
+\opening{Dear Hiring Team,}
+
+I am writing to express my interest in Apadmi’s 2026 Graduate Software Engineering Programme. As a soon-to-be Physics graduate from the University of Salford with a strong technical background in Python, C++, MATLAB, and Fusion 360, I am eager to apply my skills to innovative projects and contribute to the development of digital solutions for leading clients.
+
+During my degree, I have completed several projects that have honed both my programming and problem-solving abilities. In particular, I developed and programmed a drone’s flight control system using Arduino and C++, designed and modeled custom drone parts with Fusion 360, and worked on quantum computing simulations using IBM Quantum and PennyLane. Additionally, my experience with MATLAB and Python for modelling chaotic systems and atomic interactions has strengthened my analytical and algorithmic thinking.
+
+Beyond technical skills, I have practical experience troubleshooting, debugging, and collaborating in team-based project environments. I have also cultivated a disciplined approach to learning through both my academic and extracurricular activities, including martial arts, which have reinforced my focus, persistence, and attention to detail.
+
+I am excited by the opportunity to join Apadmi’s graduate scheme because of its emphasis on hands-on experience, mentorship, and structured learning. The chance to contribute to real-world projects for iconic clients while continuing to develop my software engineering skills aligns perfectly with my career goal of becoming a proficient, innovative, and versatile software engineer.
+
+Thank you for considering my application. I would welcome the opportunity to discuss how my skills, experience, and enthusiasm can contribute to Apadmi’s continued success.
+
+\closing{Yours sincerely,\\[2ex] Zaher Faruk}
+
+\end{letter}
+
+\end{document}
